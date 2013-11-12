@@ -1,0 +1,41 @@
+body {
+    padding: 0px;
+    font: 1em sans-serif;
+    color:#0f7;
+    background-color: #000;
+}
+
+body, #content, #expHolder, #infoHolder, #explosion {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+#expHolder {
+    position: absolute;
+    left: 20%;
+    top: 0%;
+    width: 80%;
+    height: 100%;
+    background-color: #fff;
+    //background-color: #07f;
+}
+
+#infoHolder {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    width: 20%;
+    height: 100%;
+    background-color: #fff;
+    //background-color: #70f;
+}
+
+#explosion {
+    position: absolute;
+}
+
+#renderTime {
+    color:#7f0;
+}

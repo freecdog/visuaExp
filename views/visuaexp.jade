@@ -1,0 +1,21 @@
+extends layout
+
+block content
+
+    #content
+        div(id='infoHolder')
+            | infoHolder     z
+        div(id='expHolder')
+            | expHolder
+
+    script(src="/javascripts/jquery-1.9.1.js")
+    script(src="/javascripts/underscore.js")
+    script(src="/javascripts/backbone.js")
+
+    script(src="/javascripts/glMatrix-0.9.5.min.js")
+    script(src="/javascripts/visuaexp.js")
+    script.
+        (function($) {
+            $.expholder.deliveredTime = '#{deliveredTime}';
+            $.expholder.bootstrap();
+        })(jQuery);
